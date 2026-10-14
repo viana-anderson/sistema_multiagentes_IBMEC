@@ -1,0 +1,19 @@
+# Arquivos gerados ao rodar o exercício (o .env já é ignorado pelo .gitignore da raiz)
+saidas/*
+!saidas/.gitkeep
+
+# Segredos e configuracoes locais
+.env
+.env.*
+!.env.example
+
+# Ambiente virtual Python
+.venv/
+
+# Arquivos temporarios Python
+__pycache__/
+*.py[cod]
+
+# Saidas geradas
+saidas/*
+!saidas/.gitkeep
